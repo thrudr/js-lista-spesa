@@ -6,12 +6,20 @@ utilizzando uno dei due cicli scritti al punto precedente.
 */
 
 // ARROW
-let marketList = ["Test", "Test", "Test"];
+let marketList = ["Rosemary", "Lavender", "Cinnamon", "Amethyst", "Pyrite", "White candles", "Holy pole"];
 
+/*
 // FOR LOOP
 for (let i=0; i<marketList.length; i++){
-    console.log(marketList);
-    break;
+    console.log(marketList[i]);
 }
+*/
 
+// WHILE LOOP
+let itemList = 0;
+
+while (itemList < marketList.length){
+    console.log(marketList[itemList]);
+    itemList++;
+}
 
